@@ -1,0 +1,19 @@
+Performance metrics are a part of every machine learning pipeline.
+They tell you if you are making progress, and put a number on it.
+All ML models, whether its linear regression, or a SOTA technique like BERT,
+need a metric to judge Performance
+
+Metrics are different from loss functions.
+Loss functions show a measure of model performance.
+They are used to train a machine learning model
+(using some kind of optimization like Gradient Descent)
+and they are usually differentiable in the models parameters.
+
+Metrics are used to monitor and measure of a model(during training and testing)
+and dont need to be differentiable.
+
+However, if for some tasks the performance metric is differentiable, 
+it can also be used as a loss function (perhaps with some regularizations added to it), such as MSE.
+
+Mean Squared error(MSE) is perhaps the most popular metric used for regression problems.
+It is essentialy finds the avarage of the squared difference between the target value and the value predicted by the regression model

@@ -1,0 +1,68 @@
+What is inductive Bias and some examples about inductive bias.
+I cannot focus because his english not fluent. Part to part ı can understand what we are talking about 
+
+KNN Nearest Neighbor algorithm.
+We looked for the closest examples in that space. 
+Inductive Bias in this exaxmple: It is in the description itself
+proximity in the sapce proximity in the class. yhis is our hypotesis
+
+Linear Regression and Inductive Bias: The relationship between the attributes x and the output y is linear.
+The goal is to minimize the sum of squared errors.
+
+KNN and Inductive Bias: The classification of an instance x will be most similar to the classification of other instances that are nearby in Euclidian distance
+
+
+
+AFTER CLASS- My Personal workout
+_____________________________________________________________________
+
+INDUCTIVE BIAS:
+Every machine learning algorithm with any ability to generalize beyond the training data that it sees has some type of inductive bias which are the assumptions made by the model to learn the target function and to generalize beyond training data.
+
+For instance, in linear regression, the model assumes that the output or dependent variable is related to independent variable linearly(in the weights). This is an inductive bias of the model.
+
+The stronger the inductive bias, the better the sample efficiency.
+
+In philosophy, inductive reasoning refers to generalization from specific observations to a conclusion.
+
+Inductive bias can be thought of as the set of assumptions we make about a domain which we are trying to learn about.
+
+____________________________________
+We are given some data and we are trying to do induction to try to identify a function, which can explain data. 
+
+Given examples (x, y)  (x, f(x))
+Classification : f(x) is discrete
+Regression : f(x) is continuous
+Probability estimation : f(x) = Probability of x
+
+So when we say we have to learn a function, it is a function of the features
+So, features are properties that describe each instance
+_____________________________________
+
+HYPOTHESIS SPACE:
+Set of legal functions
+
+You first defined the hypothesis space that is the class of functions that you are going to consider then given the data points, you try to come up best hypothesis given the data that you have.
+
+Based on the features and the language we can define our hypothesis space.
+H denotes all legal hypothesis, all possible outputs by the learning algorithm
+
+Decision Tree: Decision tree is a tree, where at every node, we take a decision based on the value of an attribute
+Every leaf node is labeled by the value of y
+Soo, decision tree is a type of representation; linear function is one type of representation 
+
+Hypothesis Language : Decision Tree, Linear Functions or below 
+
+-Multivariate linear function
+-Single layer perceptron
+-Multi layer neural netwrorks. (But we will talk bout later in this class)
+
+*** If you restrict the hypothesis language, the hypothesis language reflects bias, so this reflects a bias or inductive bias of the learner 
+
+When we choose a hypothesis space, we need to mae some assumptions 
+***Specifying the form of the function is called restriction bias
+
+Inductive Learning: Inducing a general function from training examples
+Given some training examples, you want to generalize
+
+Lecture Notes page 45-46 repeat again when you work again in this note.

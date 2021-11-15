@@ -1,0 +1,3 @@
+- In contrast with past approaches in AI, modern deep learning methods (LeCun et al., 2015; Schmidhuber, 2015; Goodfellow et al., 2016) often follow an “end-to-end” design philosophy 
+which emphasizes minimal a priori representational and computational assumptions, and seeks to avoid explicit structure and “hand-engineering.
+
